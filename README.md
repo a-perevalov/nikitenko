@@ -14,12 +14,12 @@
 > cd /home/NIKITENKO && wget https://raw.githubusercontent.com/a-perevalov/nikitenko/main/stop.py && python3 stop.py
 
 Разберем что именно происходит во время выполнения скрипта:
-- Создаются 4 контейнера в соответствии с заданием. Их имена:
---nikitenko_attacker_1
---nikitenko_user_1
-  > nikitenko_fail2ban_1
-  > nikitenko_posgres_1
-- Создаются две сети (внешняя для attacker и user и внутренняя для postgres):
+1. Создаются 4 контейнера в соответствии с заданием. Их имена:
+  - nikitenko_attacker_1
+  - nikitenko_user_1
+  - nikitenko_fail2ban_1
+  - nikitenko_posgres_1
+2. Создаются две сети (внешняя для attacker и user и внутренняя для postgres):
   > Внешняя сеть:
   > nikitenko_ext_net
   > 10.20.30.0/24

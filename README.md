@@ -15,7 +15,7 @@
 
 Разберем что именно происходит во время выполнения скрипта:
 - Создаются 4 контейнера в соответствии с заданием. Их имена:
-> nikitenko_attacker_1
+  > nikitenko_attacker_1
 > nikitenko_user_1
 > nikitenko_fail2ban_1
 > nikitenko_posgres_1
